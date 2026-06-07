@@ -4,7 +4,7 @@ import { ref, type Directive } from 'vue'
 /* ------------------------------------------------------------------ *
  * EDIT ME: download + credit
  * ------------------------------------------------------------------ */
-const APK_URL = '/spida.apk'
+const APK_URL = 'https://github.com/KSCervantes/Spida_/releases/latest/download/spida.apk'
 const APP_VERSION = '1.0.0'
 const APK_SIZE = '81 MB'
 const creator = {
@@ -21,11 +21,9 @@ const creator = {
 const avatarError = ref(false)
 // Social links — replace the '#' placeholders with your real profiles.
 const socials = [
-  { label: 'GitHub', icon: 'fi-brands-github', url: '#' },
-  { label: 'LinkedIn', icon: 'fi-brands-linkedin', url: '#' },
-  { label: 'Twitter', icon: 'fi-brands-twitter', url: '#' },
-  { label: 'Website', icon: 'fi-sr-globe', url: '#' },
-  { label: 'Email', icon: 'fi-sr-envelope', url: '#' },
+  { label: 'GitHub', icon: 'fi-brands-github', url: 'https://github.com/KSCervantes' },
+  { label: 'Website', icon: 'fi-sr-globe', url: 'https://kylecervantes.app/' },
+  { label: 'Email', icon: 'fi-sr-envelope', url: 'mailto:kscervantes@nemsu.edu.ph' },
 ]
 const builtWith = ['Flutter', 'Vue', 'Firebase']
 
